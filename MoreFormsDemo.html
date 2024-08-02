@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- form.html -->
+<title>more forms Demo</title>
+</head>
+<body>
+<fieldset>
+*Private Infornation...*
+<br><br>
+<form action="/submit_page.php">
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset"><br><br>
+  
+<form action="/submit_page.php">
+   User name:<br>
+   <input type="text" name="username">
+   <br>
+   User password:<br>
+   <input type="password" name="pw"><br>
+   <br>
+   <form action="/submit_page.php">
+       Birthday (date and time):
+	  <input type="datetime-local" name="bdaytime">
+	  <br><br>
+	  Enter a date before 1990-01-01:
+	 <input type="date" name="bday" max="1989-12-31"><br><br>
+	 Enter a date after 2010-01-01:
+	 <input type="date" name="bday" min="2010-01-02"><br>
+	 <br>
+	 <form action="/submit_page.php">
+	   E-mail:<br>
+	   <input type="email" name="email"><br>
+	   <br>
+	   <input type="submit"><br>
+	   <br>
+	 <form action="/submit_page.php">
+	   Card expiration (month and year):
+	   <input type="month" name="expdate"><br>
+	   <input type="submit"><br>
+   </fieldset>
+   <form action="/submit_page.php">
+   <br>
+  Which of the following dogs do you like?<br>
+  <input type="checkbox" name="dog1" value="Lab">Lab
+  <br>
+  <input type="checkbox" name="dog2" value="Golden Retreiver">Golden Retreiver
+  <br>
+  <input type="checkbox" name="dog3" value="Corgi">Corgi
+  <br><br>
+  <input type="submit">
+  <br><br>
+  <form action="/submit_page.php">
+     Select your favorite color:
+	<input type="color" name="favcolor">
+	<input type="submit">
+	<br><br>
+	<form action="/submit_page.php">
+	   Quantity (between 1 and 10)
+	  <input type="number" name="quantity" min="1" max="10"><br>
+	  <input type="submit"><br>
+	  <br>
+   <form action="/submit_page.php">
+      Rating:
+	  <input type="range" name="points"><br>
+	 <input type="submit"><br>
+</form>
+</body>
+</html>
+  

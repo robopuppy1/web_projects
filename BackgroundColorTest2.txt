@@ -1,0 +1,9 @@
+<html>
+ <head>
+  <!-- Backgroundcolor.html -->
+  <title> Background Color Test </title>
+ </head>
+ <body style="background-color:#808080;">
+  <h1> Background Color Test </h1>
+ </body>
+</html>

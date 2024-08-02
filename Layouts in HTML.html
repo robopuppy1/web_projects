@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- layout.html -->
+<title>layout Demo</title>
+<style>
+div.wholepage {
+    width: 100%
+	border: 2px solid #AAAA00;
+}
+header, footer {
+    padding: 1px;
+	color: white;
+	background-color: blue;
+	text-align: center;
+}
+
+nav {
+    float: left;
+	max-width: 100px;
+	margin: 0;
+	padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+	padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+aside {
+    background-color: lightgreen;
+	float: left;
+	max-width: 100px
+}
+article {
+    margin-left: 100px;
+	border: 1px solid gray;
+	padding: 1px;
+	background-color: paleturquoise;
+}
+footer {
+        clear: both;
+}
+</head>
+<body>
+   <div class="wholepage">
+    <header>
+	  <h1>A Site About Birds</h1>
+	</header>
+	<nav>
+	    <ul>
+		    <li><a href="#">Robins</a></li>
+			<li><a href="#">Cardinal</a></li>
+			<li><a href="#">Bluebird</a></li>
+		<ul>
+	<nav>
+	<article>
+	    <h1>This is the article heading</h1>
+		<p>
+		   Article text article text article text
+		   article text article text article text
+		   article text article text article text
+		</p>
+	</article>
+	<aside>
+	    <p>
+		    Aside text aside text aside text aside text
+			aside text aside text aside text aside text
+	    </p>
+	</aside>
+	<section>
+	    <h1>This is a section heading</h1>
+		<p>
+		    Section text section text section text
+			section text section text section text
+	    </p>
+	</section>
+	<footer>
+        <Copyright (C) 2017. All rights reserved.
+	</footer>
+</body>
+</html>
